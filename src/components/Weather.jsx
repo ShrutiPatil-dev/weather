@@ -112,7 +112,7 @@ function Weather(props) {
                             
           </div>
            {/* Logo ends here */}
-          <div className='pb-8'>
+          <div className='pb-12 lg:pb-10'>
                 <form className='bg-gray-200 dark:bg-gray-700 flex justify-around py-3 px-2 ' onSubmit={handleSubmit}>
                 <input className='w-3/4  h-[35px] rounded-full p-5 text-gray-500 outline-none ' ref={inuptRef} type="text" placeholder='Search your city name' />
                 <button type="submit" className='bg-red-500 px-5 py-2 cursor-pointer mx-2 rounded-full text-white'>Submit</button>
